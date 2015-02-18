@@ -1,5 +1,5 @@
 <?php 
-
+	// hej 
     //First we start by starting the session
     session_start();
 
