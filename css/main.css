@@ -1,0 +1,237 @@
+body {
+	font-family: "impact", sans-serif;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	font-weight: bold;	
+	color: #fff;
+	background-color: #000;
+}
+
+h1, h2, h3, h4 {
+
+}
+
+h1 {
+	font-size: 192px;
+}
+
+h2 {
+	font-size: 36px;
+	padding-bottom: 10px;
+}
+
+#content a, a:hover, a:visited, a:active {
+	color: #fff;
+	text-decoration: none;
+	font-size: 52px;	
+}
+
+#content a:hover {
+	border-bottom: 7px solid #fff;
+}
+
+ul, li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+p {
+	color: #000;
+	margin-top: 10px;
+	width: 600px;
+}
+
+#wrapper {
+
+	
+}
+
+#header {
+	
+}
+
+#content {
+	width: 100%;
+	margin-top: 250px;	
+}
+
+#headline {
+	margin-left: 115px;
+}
+
+
+#underline {
+	height: 32px;
+	background-color: #fff;
+	margin-top: -29px;
+
+}
+
+#navbar {
+	margin-left: 122px;
+	margin-top: 30px;
+}
+
+#blog {
+	width: 100%;
+
+}
+#blog p {
+	font-family: "verdana", sans-serif ;
+	font-size: 11px;
+	line-height: 150%;
+	
+}
+
+#blog h2 {
+	margin-top: 20px;
+	color: #000;
+	font-size: 22px;
+}
+
+#blog_name {
+	text-align: center;
+	
+}
+
+#blog_content {
+	background-color: rgba(255,255,255,0.89);
+	padding: 20px;
+	height: 580px;
+	width: 800px;
+	margin: 10px 65px 0 110px;
+	display: inline-block;
+	float: left;
+	
+}
+
+#blog_sidebar {
+	background-color: rgba(255,255,255,0.89);
+	height: 580px;
+	width: 250px;
+	margin-top: 10px;
+	display: inline-block;
+	
+}
+
+.date_text{
+	font-size: 8px;
+	font-style: italic;
+}
+
+#login {
+	margin: 0 auto;
+	padding-top: 75px;
+	width: 600px;
+	text-align: center;	
+}
+
+#admin {
+	height: 100%;
+	background-color: rgba(255,255,255,0.89);
+	width: 100%;
+	
+}
+
+#admin input[type=text] {
+	width: 507px;
+}
+
+
+#admin_header {
+	background: #000;
+	height: 35px;
+	padding: 15px 40px 0 40px;
+}
+
+#admin_header input[type=submit] {
+	height: 52px;
+	margin-top: -17px;
+	border: 1px solid #000;
+	font-size: 16px;
+	font-family: "impact";
+}
+
+#admin_panel {
+	padding: 42px;
+	display: inline-block;
+	color: #000;
+}
+#admin_panel input[type=submit] {
+	text-align: left;
+	background-color: rgba(255,255,255,0.14);
+	padding-left: 0px;
+	padding-bottom: 5px;
+}
+
+#admin_panel th {
+	text-align: left;
+	font-size: 22px;
+	font-family: "impact", sans-serif;
+	padding-bottom: 30px;
+
+	
+}
+
+.table_head {
+
+}
+
+#admin_panel td {
+	text-align: left;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
+	font-family: "verdana", sans-serif;
+	font-size: 12px;
+	border-bottom: 1px solid #000;
+	
+}
+
+#admin_edit {
+	text-align: center;
+	padding: 30px;
+}
+
+#footer {
+	
+}
+
+
+input[type=text], [type=password]{
+	height: 30px;
+	width: 200px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+
+input[type=submit]{
+	border: 0px;
+	height: 30px;
+	width: 100px;
+	background: white;
+	margin-right: 6px;		
+	margin-left: 6px;		
+}
+
+input[type=submit]:hover{
+	background: rgba(255,255,255,0.97);
+	cursor: pointer;
+	
+}
+
+.float_right {
+	float: right;
+	margin-right: 100px;
+}
+
+#admin_header a, a:hover, a:visited, a:active{
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#admin_header a:hover {
+	font-size: 14px;
+	border-bottom: 3px solid #fff; 
+}
